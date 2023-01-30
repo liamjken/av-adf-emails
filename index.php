@@ -67,7 +67,7 @@
 			   // Sending Mail to admin.
 			   stm_me_set_html_content_type();
    
-			   $to = get_bloginfo( 'admin_email' );
+			   $to = 'lkennedy@autoverify.com';
    
 			   $args = array(
 				   'car'       => $title,
