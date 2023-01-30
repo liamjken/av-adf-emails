@@ -67,7 +67,7 @@
 			   // Sending Mail to admin.
 			   stm_me_set_html_content_type();
    
-			   $to = 'lkennedy@autoverify.com';
+			   $to = 'liamjken@gmail.com';
    
 			   $args = array(
 				   'car'       => $title,
@@ -145,7 +145,7 @@
 				   $headers .= "From: Abbotsford Chrysler <support@abbotsfordchrysler.com>\r\n";   
 					   
 				   //mail("leads@abbotsfordchrysler.ca",$subject,$body_adf,$headers);    
-				   mail("liam@aimexperts.com",$subject,$body_adf,$headers);
+				   mail("liamjken@gmail.com",$subject,$body_adf,$headers);
 				   //mail("harman.decosoftsolutions@gmail.com",$subject,$body_adf,$headers)
    
 			   if ( stm_is_listing() ) {
